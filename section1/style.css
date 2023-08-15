@@ -1,0 +1,72 @@
+body{
+  background-color: rgb(167, 91, 214);
+
+}
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  margin-top: 90px;
+
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1150px;
+  margin: auto;
+  color: white;
+  margin-top: 50px;
+  
+}
+.titlee {
+  font-size: xxx-large;
+  font-weight: 800;
+  width: 60%;
+  margin: auto;
+}
+.eating {
+  color: rgb(254, 184, 22);
+}
+.left {
+  line-height: 1.1;
+  width: 50%;
+  padding: 30px;
+}
+.paragraph {
+  width: 60%;
+  margin: auto;
+}
+.right {
+  width: 50%;
+}
+.girl_img {
+  width: 100%;
+  margin-left: -25%;
+  margin-top: 100px;
+}
+.button-div {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 5px;
+}
+.btu {
+  width: 40%;
+  border: solid silver 2px ;
+  border-radius: 10px;
+  background-color:rgb(254, 184, 22) ;
+  height: 6.5vh;
+  width: 42%;
+}
+.icon {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+}
+.icon2 {
+  padding: 8px;
+}
