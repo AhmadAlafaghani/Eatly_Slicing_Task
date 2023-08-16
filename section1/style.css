@@ -1,72 +1,222 @@
-body{
-  background-color: rgb(167, 91, 214);
-
+body {
+  margin: 0;
+  padding: 0;
 }
+
 .main {
   font-family: Arial, Helvetica, sans-serif;
-  height: 100vh;
-  margin-top: 90px;
-
-
+  background-color: #f3f1f2;
 }
+
 .container {
+  background-image: linear-gradient(to right, #9356fd, #8842ec, #d37a64);
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  width: 1150px;
-  margin: auto;
+  width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+  padding-left: 70px;
+  padding-right: 70px;
   color: white;
-  margin-top: 50px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: start;
+  margin-bottom: 20px;
+  padding-left: 40px;
   
 }
-.titlee {
-  font-size: xxx-large;
-  font-weight: 800;
-  width: 60%;
-  margin: auto;
-}
-.eating {
-  color: rgb(254, 184, 22);
-}
+
+
+
 .left {
-  line-height: 1.1;
-  width: 50%;
-  padding: 30px;
+  text-align: center;
+  padding: 20px;
+  width: 50;
 }
+
 .paragraph {
   width: 60%;
-  margin: auto;
+  text-align: start;
+  padding-left: 40px;
 }
+
 .right {
   width: 50%;
+  margin-left: -200px;
 }
 .girl_img {
-  width: 100%;
-  margin-left: -25%;
-  margin-top: 100px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 50px auto;
 }
 .button-div {
   display: flex;
-  width: 60%;
-  margin: auto;
-  justify-content: space-between;
-  padding: 5px;
-}
-.btu {
-  width: 40%;
-  border: solid silver 2px ;
-  border-radius: 10px;
-  background-color:rgb(254, 184, 22) ;
-  height: 6.5vh;
-  width: 42%;
-}
-.icon {
-  display: flex;
-  flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
-  width: 50%;
+  padding: 10px;
 }
+.btu {
+  width: 25%;
+  border: solid #b68efd 2px ;
+  border-radius: 15px;
+  font-weight: 800;
+  color: #775c02;
+  background-image: linear-gradient(to right, #ffd575, #ffa805);
+  padding: 10px 0;
+  margin: 10px 0;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 8vh;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  cursor: pointer;
+  width: 40%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
 .icon2 {
   padding: 8px;
+  cursor: pointer;
+}
+
+.eating {
+  color: #fcba13;
+  display: inline-block;
+
+  width: 180px;
+  text-align: center;
+  height: 36px;
+  vertical-align: 3px;
+  
+}
+
+.eating > div {
+  font-size: 3rem;
+  font-weight: 800;
+  font-size:0px;
+  opacity:0;
+  margin-left:-30px;
+  position:absolute;
+  font-weight:300;   
+  box-shadow: 0px 60px 25px -20px rgba(0,0,0,0.5);
+}
+
+.eating > div:nth-child(1) {
+  animation: roll 5s linear infinite 0s;
+}
+.eating > div:nth-child(2) {
+  animation: roll 5s linear infinite 1s;
+}
+.eating > div:nth-child(3) {
+  animation: roll 5s linear infinite 2s;
+}
+.eating > div:nth-child(4) {
+  animation: roll2 5s linear infinite 3s;
+}
+
+@keyframes roll {
+  0% {
+    font-size:0px;
+    opacity:0;
+    margin-left:-30px;
+    margin-top:0px;
+    transform: rotate(-25deg);
+  }
+  3% {
+    opacity:1;
+    transform: rotate(0deg);
+  }
+  5% {
+    font-size:inherit;
+    opacity:1;
+    margin-left:0px;
+    margin-top:0px;
+  }
+  20% {
+    font-size:inherit;
+    opacity:1;
+    margin-left:0px;
+    margin-top:0px;
+    transform: rotate(0deg);
+  }
+  27% {
+    font-size:0px;
+    opacity:0.5;
+    margin-left:20px;
+    margin-top:100px;
+  }
+  100% {
+    font-size:0px;
+    opacity:0;
+    margin-left:-30px;
+    margin-top:0px;
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes roll2 {
+  0% {
+    font-size:0px;
+    opacity:0;
+    margin-left:-30px;
+    margin-top:0px;
+    transform: rotate(-25deg);
+  }
+  3% {
+    opacity:1;
+    transform: rotate(0deg);
+  }
+  5% {
+    font-size:inherit;
+    opacity:1;
+    margin-left:0px;
+    margin-top:0px;
+  }
+  30% {
+    font-size:inherit;
+    opacity:1;
+    margin-left:0px;
+    margin-top:0px;
+    transform: rotate(0deg);
+  }
+  37% {
+    font-size:1500px;
+    opacity:0;
+    margin-left:-1000px;
+    margin-top:-800px;
+  }
+  100% {
+    font-size:0px;
+    opacity:0;
+    margin-left:-30px;
+    margin-top:0px;
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes bg {
+  0% {background: #ff0075;}
+  3% {background: #0094ff;}
+  20% {background: #0094ff;}
+  23% {background: #b200ff;}
+  40% {background: #b200ff;}
+  43% {background: #8BC34A;}
+  60% {background: #8BC34A;}
+  63% {background: #F44336;}
+  80% {background: #F44336;}
+  83% {background: #F44336;}
+  100% {background: #F44336;}
 }
