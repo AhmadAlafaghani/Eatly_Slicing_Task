@@ -95,14 +95,12 @@ body {
 .eating {
   color: #fcba13;
   display: inline-block;
-
   width: 180px;
   text-align: center;
   height: 36px;
   vertical-align: 3px;
   
 }
-
 .eating > div {
   font-size: 3rem;
   font-weight: 800;
@@ -121,10 +119,7 @@ body {
   animation: roll 5s linear infinite 1s;
 }
 .eating > div:nth-child(3) {
-  animation: roll 5s linear infinite 2s;
-}
-.eating > div:nth-child(4) {
-  animation: roll2 5s linear infinite 3s;
+  animation: roll2 5s linear infinite 2s;
 }
 
 @keyframes roll {
@@ -197,6 +192,8 @@ body {
     opacity:0;
     margin-left:-1000px;
     margin-top:-800px;
+    transform: rotate(0deg);
+
   }
   100% {
     font-size:0px;
@@ -207,16 +204,3 @@ body {
   }
 }
 
-@keyframes bg {
-  0% {background: #ff0075;}
-  3% {background: #0094ff;}
-  20% {background: #0094ff;}
-  23% {background: #b200ff;}
-  40% {background: #b200ff;}
-  43% {background: #8BC34A;}
-  60% {background: #8BC34A;}
-  63% {background: #F44336;}
-  80% {background: #F44336;}
-  83% {background: #F44336;}
-  100% {background: #F44336;}
-}
