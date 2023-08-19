@@ -4,7 +4,7 @@ body {
 }
 
 .main {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:  Arial, Helvetica, sans-serif;
   background-color: #f3f1f2;
 }
 
@@ -14,7 +14,7 @@ body {
   flex-direction: row;
   align-items: center;
   width: 1400px;
-  height: 100vh;
+  height: 110vh;
   margin: 0 auto;
   padding-left: 70px;
   padding-right: 70px;
@@ -42,17 +42,37 @@ body {
   width: 60%;
   text-align: start;
   padding-left: 40px;
+  font-size: larger;
+  color: rgb(210, 210, 210);
 }
 
-.right {
+.img__ {
   width: 50%;
   margin-left: -200px;
 }
-.girl_img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 50px auto;
+.arch {
+  position: relative;
+  left: -70px;
+  top: 54px;
+  margin-left: 131px;
+  margin-top: 0rem;
+  border-radius: 500px 500px 100px 100px;
+  border: solid 18px #fafaed;
+  filter: drop-shadow( -15px -3px 20px #b3b1f2);
+  background-color: #b3b1f2;
+  width: 26rem;
+  height: 70vh;
+}
+
+
+.my_img {
+    position: relative;
+    left: 0px;
+    top: 60px;
+    height: 78vh;
+    margin-top: -110px;
+    width: 34rem;
+    margin-left: -62px;
 }
 .button-div {
   display: flex;
@@ -61,7 +81,7 @@ body {
   padding: 10px;
 }
 .btu {
-  width: 25%;
+  width: 22%;
   border: solid #b68efd 2px ;
   border-radius: 15px;
   font-weight: 800;
@@ -73,7 +93,7 @@ body {
   cursor: pointer;
   margin-left: 20px;
   margin-right: 20px;
-  height: 60px;
+  height: 55px;
 }
 
 .icon {
@@ -101,10 +121,13 @@ body {
   vertical-align: 3px;
   
 }
+.eating >div{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .eating > div {
   font-size: 3rem;
   font-weight: 800;
-  font-size:0px;
+  /* font-size:100px; */
   opacity:0;
   margin-left:-30px;
   position:absolute;

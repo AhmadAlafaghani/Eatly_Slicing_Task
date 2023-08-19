@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+  }
+  
+  .main {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1350px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+  }
+  
+  .container {
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+    
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding-top: 100px;
+  }
+  .title{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .icon__h2{
+    display: flex;
+  }
+  .crown{
+    display: flex;
+    align-items: center;
+    
+   
+  }
+  .icon__div{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: #aa7cf5;
+    border: 2px solid #f5eaf7;
+    border-radius: 15px;
+    height: 50px;
+    margin-top: 22px;
+    color: rgb(254, 206, 84);
+  }
+  .h2_title{
+    color: #6f54a2;
+    margin-left: 15px;
+    font-size: xx-large;
+    font-weight: 800;
+  }
+  .scroll_buttons{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .size{
+   color: white; 
+    background-color:#976ee3;
+    border: 1px solid #f5eaf7;
+    border-radius: 100%;
+   
+  }
+  .cards{
+    display: flex;
+    width: 75%;
+    border: 15px #f7e9f7 solid;
+    border-radius: 50px;
+  filter: drop-shadow( -15px -3px 20px #e8ddeb);
+  background-color: #9256f6;
+
+  }
+  .card{
+   
+    width: 25%;
+    padding:10px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-items: center;
+    color: white;
+  }
+  .icon2_div{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: #8238ff;
+    border: 3px solid silver;
+    border-radius: 15px;
+    height: 50px;
+    width: 30px;
+    margin-top: 22px;
+    color: rgb(254, 206, 84);
+    
+  }
+  .kk{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  .card_p{
+    /* padding: 0px 15px; */
+    width: 70%;
+    margin-top: 0px;
+  }
+  .card_title{
+    width: 70%;
+    
+  }
