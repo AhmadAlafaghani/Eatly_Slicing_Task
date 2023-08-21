@@ -3,12 +3,12 @@ body {
   padding: 0;
 }
 
-.main {
+.mainA {
   font-family:  Arial, Helvetica, sans-serif;
   background-color: #f3f1f2;
 }
 
-.container {
+.containerA {
   background-image: linear-gradient(to right, #9356fd, #8842ec, #d37a64);
   display: flex;
   flex-direction: row;
@@ -21,7 +21,7 @@ body {
   color: white;
 }
 
-.title {
+.titleA {
   font-size: 3rem;
   font-weight: 800;
   text-align: start;
@@ -32,13 +32,13 @@ body {
 
 
 
-.left {
+.leftA {
   text-align: center;
   padding: 20px;
   width: 50;
 }
 
-.paragraph {
+.paragraphA {
   width: 60%;
   text-align: start;
   padding-left: 40px;
@@ -46,11 +46,11 @@ body {
   color: rgb(210, 210, 210);
 }
 
-.img__ {
+.img__A {
   width: 50%;
   margin-left: -200px;
 }
-.arch {
+.archA {
   position: relative;
   left: -70px;
   top: 54px;
@@ -65,7 +65,7 @@ body {
 }
 
 
-.my_img {
+.my_imgA {
     position: relative;
     left: 0px;
     top: 60px;
@@ -74,13 +74,13 @@ body {
     width: 34rem;
     margin-left: -62px;
 }
-.button-div {
+.button-divA {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px;
 }
-.btu {
+.btuA {
   width: 22%;
   border: solid #b68efd 2px ;
   border-radius: 15px;
@@ -96,7 +96,7 @@ body {
   height: 55px;
 }
 
-.icon {
+.iconA {
   display: flex;
   align-items: center;
   font-weight: 100;
@@ -107,12 +107,12 @@ body {
 }
 
 
-.icon2 {
+.icon2A {
   padding: 8px;
   cursor: pointer;
 }
 
-.eating {
+.eatingA {
   color: #fcba13;
   display: inline-block;
   width: 180px;
@@ -121,13 +121,12 @@ body {
   vertical-align: 3px;
   
 }
-.eating >div{
+.eatingA >div{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.eating > div {
+.eatingA > div {
   font-size: 3rem;
   font-weight: 800;
-  /* font-size:100px; */
   opacity:0;
   margin-left:-30px;
   position:absolute;
@@ -135,13 +134,13 @@ body {
   box-shadow: 0px 60px 25px -20px rgba(0,0,0,0.5);
 }
 
-.eating > div:nth-child(1) {
+.eatingA > div:nth-child(1) {
   animation: roll 5s linear infinite 0s;
 }
-.eating > div:nth-child(2) {
+.eatingA > div:nth-child(2) {
   animation: roll 5s linear infinite 1s;
 }
-.eating > div:nth-child(3) {
+.eatingA > div:nth-child(3) {
   animation: roll2 5s linear infinite 2s;
 }
 

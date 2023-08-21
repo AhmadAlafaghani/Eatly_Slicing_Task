@@ -7,7 +7,7 @@ body {
   align-content: center;
 }
 
-.main {
+.mainE {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   width: 1350px;
@@ -17,7 +17,7 @@ body {
   align-content: center;
 }
 
-.container {
+.containerE {
   background-color: rgb(248, 248, 248);
   display: flex;
   justify-content: center;
@@ -29,7 +29,7 @@ body {
   margin: 0 auto;
   height: fit-content;
 }
-.contant {
+.contantE {
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -38,54 +38,54 @@ body {
   width: 100%;
   margin: 0px auto;
 }
-.left-section {
+.left-sectionE {
   display: flex;
   flex-direction: column;
   width: 40%;
   padding: 0px 0px 0px 100px;
 }
-.right-section {
+.right-sectionE {
   width: 60%;
 }
-.top-title {
+.top-titleE {
   width: 100%;
   padding: 20px;
 }
-.icon-title {
+.icon-titleE {
   display: flex;
   width: 100%;
   align-items: center;
 }
-.icon-title i {
+.icon-titleE i {
   padding: 10px 15px;
   border: 3px solid silver;
   border-radius: 15px;
   background-color: #aa78ff;
   color: #fde58d;
 }
-.top-tittle {
+.top-tittleE {
   padding: 0px 0px 0px 30px;
   color: #694fa9;
   font-weight: 800;
   font-size: 30px;
 }
-.pragraph {
+.pragraphE {
   width:90%;
   font-size: 20px;
   font-weight: 540;
   color: #918d9c;
 }
-.left-menu {
-  height: 350px;
+.left-menuE {
+  height: 400px;
   overflow-y: scroll;
 }
-.left-menu::-webkit-scrollbar {
+.left-menuE::-webkit-scrollbar {
   display: none;
 }
-.lift-list {
+.lift-listE {
   list-style-type: none;
 }
-.item {
+.itemE {
   padding: 10px 20px;
   display: flex;
   border: solid white 3px;
@@ -94,7 +94,7 @@ body {
   background-color: #f9f1fe;
   margin-top: 15px;
 }
-.icon-div {
+.icon-divE {
     padding: 0px 15px;
     border: 3px solid silver;
     border-radius: 15px;
@@ -104,28 +104,28 @@ body {
     align-items: center;
 }
 
-.item-titel {
+.item-titelE {
     padding-left: 25px;
   color: #6851aa;
 }
-.item:hover{
+.itemE:hover{
     background-color:#f9f6fd ;
-    >.item-titel{
+    >.item-titelE{
     color:#ae93d1 ;
 
     }
-    >.icon-div{
+    >.icon-divE{
         background-color:#ffca48 ;
         border-color:#fcd764 ;
     }
 }
-.cards-section {
+.cards-sectionE {
   display: flex;
   justify-content: space-around;
   margin-top: 35px;
   padding-right: 150px;
 }
-.card {
+.cardE {
   border: white solid 3px;
   border-radius: 200px 200px 50px 50px;
   width: 38%;
@@ -137,7 +137,7 @@ body {
   background-color: #f9f1fe;
   padding-bottom: 20px;
 }
-.img-div {
+.img-divE {
   width: 80%;
   margin-top: 20px;
   padding-bottom: 10px;
@@ -150,16 +150,16 @@ body {
   justify-items: center;
   background-image: linear-gradient(45deg, #9693e2, #adaaed, #dbedfc);
 }
-img {
+.my__imgE{
   width: 80%;
   margin: 12%;
 }
-.pragraph {
+.pragraphE {
   color: #6f5c92;
   font-size: 16px;
   font-weight: 600;
 }
-.btn {
+.btnE {
     background-color: #fbf8fe;
   width: 105px;
   height: 45px;
@@ -169,7 +169,7 @@ img {
   font-size: 13px;
   font-weight: 600;
 }
-.scroll_buttons{
+.scroll_buttonsE{
     width: 100%;
     display: flex;
     justify-content: end;
@@ -177,38 +177,22 @@ img {
     margin-top: 100px;
  
   }
-  .size{
+  .sizeE{
    color: white; 
     background-color:#976ee3;
     border: 1px solid #f5eaf7;
     border-radius: 100%;
    margin: 10px;
   }
-.fd{
+.fdE{
     margin-right: 150px;
 }
-.card:hover{
+.cardE:hover{
     
     background-color: white;
 }
-.btn:hover{
+.btnE:hover{
     background-image: linear-gradient( #f6e7bf, #ffc73e, #feb805);
     border: solid #fff4c8 3px;
 }
 
-/* div {
-    position: relative
-  }
-  div:hover {
-    background: #eab0ff
-  }
-  div p:hover {
-    background: #fff
-  }
-  div p {
-    padding-bottom: 24px
-  }
-  div button {
-    position: absolute;
-    bottom: 0
-  } */
